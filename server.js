@@ -8,7 +8,7 @@ const pg = require('pg')
 const server = express();
 server.use(cors())
 
-const movieData = require('./Movie Data/data.json');
+const movieData = require('./data.json');
 const apiKey = process.env.APIkey;
 server.use(express.json())
 
